@@ -51,10 +51,24 @@ body {
     text-align: center;
 }
 
-.input-field {
+.login-field, .pw-field {
+    position: relative; 
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.login-field i, .pw-field i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.login-field input, .pw-field input {
     width: 100%;
     padding: 15px;
-    margin-bottom: 15px;
+    padding-left: 40px;
     border-radius: 30px;
     border: none;
 }

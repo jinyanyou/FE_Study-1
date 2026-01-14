@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>likelion</title>
+    <script src="https://kit.fontawesome.com/a2af679888.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -28,8 +29,14 @@
         <div class="right">
             <h3>LOGIN</h3>
             <form>
-                <input type="text" placeholder="👤 username" class="input-field">
-                <input type="pw" placeholder="🔒 password" class="input-field">
+                <div class="login-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="username">
+                </div>
+                <div class="pw-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="pw" placeholder="password">
+                </div>
                 <button type="button" class="login-btn">login</button>
             </form>
         </div>
